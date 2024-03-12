@@ -9,7 +9,7 @@ const {
 } = require('@aws-sdk/lib-dynamodb');
 
 const client = new dynamodb.DynamoDBClient({
-  region: 'us-east-1',
+  region: 'eu-north-1',
 });
 const ddbDocClient = new DynamoDBDocumentClient(client);
 
